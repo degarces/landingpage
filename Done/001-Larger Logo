@@ -1,0 +1,7 @@
+# Need to make the logo larger in the navbar without affecting the current positions or scale of the navbar; changes need to be made in the Navbar.jsx file.
+
+## Plan
+1. Inspect current logo sizing in src/components/Navbar.jsx for both desktop and mobile variants.
+2. Update only the logo size helpers (height/scale classes) while preserving surrounding layout and spacing.
+3. Recheck mobile drawer and desktop nav to ensure layout, interactions, and spacing remain intact.
+
