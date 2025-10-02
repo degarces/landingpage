@@ -7,25 +7,25 @@ export default function Home() {
       {/* Hero */}
       <main className="row-start-2 px-8 sm:px-20 py-16 flex flex-col gap-8 items-center sm:items-start">
         
-        <h1 className="text-green-400 text-4xl sm:text-5xl font-extrabold tracking-tight">
-          Welcome to ....
+        <h1 className=" text-4xl sm:text-5xl font-extrabold tracking-tight">
+          Welcome to <span className="text-green-400">ThorneCheck</span>
         </h1>
-        <p className="text-green-400 text-lg text-gray-600">
-          Doing things and stuff cuz yuhr.
+        <p className=" text-lg ">
+          ThorneCheck is the best client for your desired purposes ...
         </p>
 
         <div className="flex gap-3 flex-col sm:flex-row">
           <Link
             href="/signup"
-            className="inline-flex items-center justify-center h-12 px-5 rounded-md bg-green-400 text-white hover:opacity-90"
+            className="font-semibold inline-flex items-center justify-center h-12 px-5 rounded-md bg-green-400 hover:opacity-90"
           >
-            Get Started
+            Sign up, its free!
           </Link>
           <Link
             href="/about"
-            className="text-green-400 bg-gray-100 inline-flex items-center justify-center h-12 px-5 rounded-md hover:bg-gray-200"
+            className="font-semibold bg-gray-100 inline-flex items-center justify-center h-12 px-5 rounded-md hover:bg-gray-200"
           >
-            About
+            Contact Us
           </Link>
         </div>
       </main>
@@ -37,3 +37,4 @@ export default function Home() {
     </div>
   );
 }
+

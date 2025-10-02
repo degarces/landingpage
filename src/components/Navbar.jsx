@@ -12,9 +12,7 @@ export default function Navbar() {
     <header className="fixed top-3 left-5 right-5 z-50">
       {/* Mobile top bar */}
       <div className="md:hidden flex items-center justify-between h-12 px-4 py-3 shadow rounded-lg bg-white text-green-400 ring-2 ring-green-400">
-        <Link href="/" className="flex items-center">
-          <img src="/logo.svg" alt="Logo" className="h-10 w-auto" />
-        </Link>
+        <Link href="/" className="flex items-center gap-2"><img src="/logo.svg" alt="Logo" className="h-10 w-auto" /><span className="text-green-400 font-semibold">ThorneCheck</span></Link>
 
         <button
           onClick={() => setIsOpen(true)}
@@ -131,4 +129,5 @@ export default function Navbar() {
     </header>
   );
 }
+
 

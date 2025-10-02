@@ -1,0 +1,7 @@
+# For the mobile sidebar add text ThorneCheck to be right next to the logo on its right hand side. it should be in text-green-400.
+
+##plan##
+1. Review the mobile header section in src/components/Navbar.jsx to locate the logo container used on small screens.
+2. Add a `span` element with the copy "ThorneCheck" styled with `text-green-400` and flex spacing so it sits to the right of the logo only on mobile.
+3. Ensure desktop markup remains unchanged by applying the update within the mobile-only wrapper classes.
+4. Run npm run dev and test the mobile menu to confirm the label appears correctly and the toggle behaviour is unaffected.
