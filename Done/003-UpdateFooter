@@ -1,0 +1,8 @@
+#The footer.jsx needs to feature the ThorneCheck logo, logo.svg and needs to feature the socials X, Linkedin, Youtube, Instagram, and github keep the copyright thing and a list of the current other places that can be clicked to go to another place.
+
+##plan##
+1. Review src/components/Footer.jsx to document its current layout, link list, social placeholders, and copyright strip.
+2. Determine how to introduce the brand logo (logo.svg) within the footer top row without breaking responsive grid behaviour.
+3. Replace the existing social placeholders with icons(links) for X, LinkedIn, YouTube, Instagram, and GitHub, ensuring accessible labels.
+4. Preserve and refresh the navigation link grid and copyright line so existing destinations remain available.
+5. After updates, run npm run dev and visually check the footer on mobile and desktop breakpoints.
